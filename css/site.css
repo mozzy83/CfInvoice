@@ -2,3 +2,20 @@ span.bold{
     font-weight:900;
 }
 
+.address {
+    font-size: .8rem;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 768px) {
+    .address {
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    .address {
+        font-size: 1rem;
+    }
+}
